@@ -1,2 +1,77 @@
-# Uber-powerbi-dashboard
-Power BI dashboard analyzing Uber bookings, revenue, and rider data
+# Uber Bookings & Revenue Dashboard — Power BI
+
+A Power BI dashboard built to analyze Uber's ride bookings, revenue, driver/rider ratings, and location trends. Designed to help identify booking losses, revenue drivers, and rider behavior patterns across vehicle types, time periods, and locations.
+
+## 📁 Files
+
+| File | Description |
+|---|---|
+| `UBER_Problems_and_Business_Requirements.pbix` | Power BI project file — open in Power BI Desktop |
+| `Uber_Problems_and_Bussiness_Requirements.docx` | Business problem statement & requirements document |
+
+## 📸 Screenshots
+
+**Home Page**
+![Home Page](screenshots/home.png)
+
+**Overview Page**
+![Overview Page](screenshots/overview.png)
+
+> Screenshots are in the `screenshots/` folder. See [How to add screenshots](#-how-to-add-screenshots) below if you're adding more later.
+
+## 📊 Report Pages
+
+### 1. Overview
+- **KPIs:** Completed Bookings, Lost Bookings, Revenue, Total Distance, Avg Distance
+- Vehicle type filter
+- Monthly analysis: Bookings Completed, Revenue
+- Quarterly analysis: Bookings Completed, Revenue
+- Revenue by Vehicle Type
+- Top Pickup & Drop Locations (by booking count)
+- Ratings: Avg Rider Rating, Avg Driver Rating
+
+### 2. Vehicle
+- Detailed breakdown by vehicle type
+- Booking Count
+- Revenue Contribution
+
+### 3. Revenue
+- Revenue by Customer
+- Revenue by Vehicle
+- Revenue by Payment Method
+- Monthly and Quarterly trends
+
+### 4. Rider
+- Cancelled Rides by Reason
+- Breakdown by Payment Method
+- Monthly and Quarterly trends
+- Detailed data table
+- Rider segmentation: First-time, Return, and Regular Riders
+
+### 5. Location
+- Monthly Total Distance
+- Total Distance by Vehicle
+- Busy Time Slots
+- Busy Areas
+
+## 🎛️ Additional Features
+- Hide/Show filter panel for cleaner layout and better spacing
+- Multiple slicers/filters added across report pages for deeper drill-down
+
+## 🛠️ Tools Used
+- **Power BI Desktop** — data modeling, DAX measures, and report visuals
+
+## 🚀 How to View
+1. Download `UBER_Problems_and_Business_Requirements.pbix`
+2. Install [Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/downloads) (free)
+3. Open the `.pbix` file to explore the interactive report
+
+## 📄 Business Requirements
+See `Uber_Problems_and_Bussiness_Requirements.docx` for the full breakdown of the business problem and requirements this dashboard was built to address.
+
+## 🖼️ How to Add Screenshots
+1. In your GitHub repo, click **Add file → Upload files**.
+2. Drag in your screenshot images (e.g. `home.png`, `overview.png`, and any others like `vehicle.png`, `revenue.png`, `rider.png`, `location.png`).
+3. Before committing, in the file list that appears, rename each path to start with `screenshots/` — e.g. `screenshots/home.png` — GitHub creates the `screenshots` folder automatically once you do this.
+4. Click **Commit changes**. The images will then render automatically at the top of this README.
+5. To add more pages later, take a screenshot in Power BI Desktop (Windows: `Win + Shift + S`, Mac: `Cmd + Shift + 4`), upload it the same way, and add a matching `![Page Name](screenshots/filename.png)` line above.
