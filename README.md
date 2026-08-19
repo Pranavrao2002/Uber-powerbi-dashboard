@@ -17,8 +17,6 @@ A Power BI dashboard built to analyze Uber's ride bookings, revenue, driver/ride
 **Overview Page**
 ![Overview Page](screenshots/Uber_Overview.png)
 
-> Screenshots are in the `screenshots/` folder. See [How to add screenshots](#-how-to-add-screenshots) below if you're adding more later.
-
 ## 📊 Report Pages
 
 ### 1. Overview
