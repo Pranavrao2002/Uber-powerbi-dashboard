@@ -68,10 +68,3 @@ A Power BI dashboard built to analyze Uber's ride bookings, revenue, driver/ride
 
 ## 📄 Business Requirements
 See `Uber_Problems_and_Bussiness_Requirements.docx` for the full breakdown of the business problem and requirements this dashboard was built to address.
-
-## 🖼️ How to Add Screenshots
-1. In your GitHub repo, click **Add file → Upload files**.
-2. Drag in your screenshot images (e.g. `home.png`, `overview.png`, and any others like `vehicle.png`, `revenue.png`, `rider.png`, `location.png`).
-3. Before committing, in the file list that appears, rename each path to start with `screenshots/` — e.g. `screenshots/home.png` — GitHub creates the `screenshots` folder automatically once you do this.
-4. Click **Commit changes**. The images will then render automatically at the top of this README.
-5. To add more pages later, take a screenshot in Power BI Desktop (Windows: `Win + Shift + S`, Mac: `Cmd + Shift + 4`), upload it the same way, and add a matching `![Page Name](screenshots/filename.png)` line above.
